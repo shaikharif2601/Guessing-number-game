@@ -2,7 +2,7 @@
 
 number  = 12
 """
-    Player have to guess this number. In 5 chance
+    Player have to guess this number. In 3 chance
 """
 
 no_of_guess = 0
