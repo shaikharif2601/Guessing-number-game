@@ -15,7 +15,7 @@ print("\n***********************************************************************
 
 
 while ( no_of_guess < 3 ):                                  #create a while loop for of game
-    no_of_guess = no_of_guess + 1                           #this line will add the no of chance ever time we play till 5 chance
+    no_of_guess = no_of_guess + 1                           #this line will add the no of chance ever time we play till 3 chance
 
     guess_a_number = int(input("\n\tGuess a number from 1 to 20 :-\t"))
 
