@@ -9,7 +9,7 @@ no_of_guess = 0
 print("\n")
 print("**********************************|Welcome to Number Guessing Game.|**************************************")
 print("\n")
-print("\n\t\t\tIn This you have 3 chance.You have to guess a correct number .")
+print("\n\t\t\tIn This you have 3 chance.You have to guess a correct number from 1 to 30.")
 print("\n")
 print("\n************************************************************************************************************")
 
@@ -17,9 +17,9 @@ print("\n***********************************************************************
 while ( no_of_guess < 3 ):                                  #create a while loop for of game
     no_of_guess = no_of_guess + 1                           #this line will add the no of chance ever time we play till 3 chance
 
-    guess_a_number = int(input("\n\tGuess a number from 1 to 20 :-\t"))
+    guess_a_number = int(input("\n\tGuess a number from 1 to 30 :-\t"))
 
-    if guess_a_number == 12:
+    if guess_a_number == number:
         print("\n")
         print("\n*********************************|Congratulation|*************************************************")
         print("\n") 2
@@ -30,7 +30,7 @@ while ( no_of_guess < 3 ):                                  #create a while loop
         print("\n")
         print("\tYou've enter a smaller number, Please enter a higher number")
         print("\n")
-        print(f"\tYou have {3 - no_of_guess} left.")
+        print(f"\tYou have {3 - no_of_guess} chances left.")
 
         continue
 
@@ -42,7 +42,8 @@ while ( no_of_guess < 3 ):                                  #create a while loop
 
     else:
         pass
-
+print("\t\t****************************************|SORRY|******************************************")
+print("\n\t You loose the game"
 print(f"\n\t\t {no_of_guess} :- no of chance you took to finish this game ")
 print("\n")
 
